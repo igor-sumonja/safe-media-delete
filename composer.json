@@ -1,0 +1,29 @@
+{
+  "name": "timisdigital/safe-media-delete",
+  "description": "Safe Media Delete",
+  "authors": [
+    {
+      "name": "Igor Sumonja",
+      "email": "hello@timis.digital"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SafeMD\\": "inc/"
+    },
+    "files": ["vendor/cmb2/cmb2/init.php"]
+  },
+  "require": {
+    "cmb2/cmb2": "dev-master"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "wp-coding-standards/wpcs": "^2.3",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
